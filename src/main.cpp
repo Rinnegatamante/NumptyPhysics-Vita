@@ -43,6 +43,7 @@ int ret;
 
 int main(int argc, char* argv[])
 {
+	sceTouchSetSamplingState(SCE_TOUCH_PORT_FRONT, SCE_TOUCH_SAMPLING_STATE_START);
 
 #if 0	
 	FILE *f = fopen("log.txt","w");
