@@ -21,7 +21,7 @@
 #include <stdio.h>
 #include <sys/time.h>
 #include "SDL_Lite.h"
-#include <PSP2/ctrl.h>
+#include <psp2/ctrl.h>
 
 int SDL_PollEvent(SDL_Event *event)
 {
